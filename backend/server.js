@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(cors(
   {
-    origin ["https://mern1-api-nine.vercel.app/"]
+    origin [https://mern1-api-nine.vercel.app/]
     methods:["POST","GET"],
     credentials:true
   }
